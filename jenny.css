@@ -1,0 +1,98 @@
+
+body{
+    font-family: 'century Gothic', callibri,  serif;
+    font-size: 13px;
+    margin: Opx;
+    padding: 0px;
+    background-color: coral;
+}
+h1{
+    font-size: 60px;
+    font-weight: center;
+    text-align: center;
+}
+
+header{
+    height: 90px;
+}
+
+footer{
+    height: 40px;
+    padding: 2px;
+    text-align: center;
+    background-color: darkcyan;
+    border-top: darkgray;
+
+}
+
+nav{
+    width: 100%;
+    background-color: darkslateblue;
+}
+
+nav ul{
+    margin: 2px;
+    padding: 2px;
+
+}
+nav li{
+    list-style: none;
+    float: left;
+
+}
+
+.table{
+    display: table;
+    margin: 0 auto;
+}
+.menu-exp:hover, .competence{
+    border-top: 5px solid #0070BB;
+    background-color: darkslategrey;
+}
+
+section{
+    width: 100%;
+    min-width: 300px;
+    padding-bottom: 10px;
+    /* margin-bottom: 10px; */
+}
+
+.sec{
+    margin: 10px;
+}
+
+.left{
+    float: left;
+    width: 30%;
+    bottom: 3%;
+}
+.right{
+    float: left;
+    width: 70%;
+}
+.cleft, .cright, .sousleft, .sousright{
+    width: 50%;
+    float: left;
+}
+.sec::after, .exp::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 780px){
+    header{
+        height: 50px;
+    }
+    h1{
+        font-size: 28;
+        margin: 20 0px 0px;
+    }
+    nav li a{
+        font-size: 12px;
+        padding: 10px;
+    }
+    nav li:haver a{
+        padding: 5px 10px 10px;
+    }
+}
+    
